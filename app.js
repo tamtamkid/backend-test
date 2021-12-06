@@ -5,7 +5,7 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 // import mongoose
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/rachmat_hidayat');
+mongoose.connect('mongodb+srv://codeathome:pascal123@cluster0.rp1dz.mongodb.net/rachmat_hidayat?retryWrites=true&w=majority');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');

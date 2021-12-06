@@ -20,6 +20,4 @@ const userSchema = new mongoose.Schema({
     }
 })
 
-userSchema.inde
-
 module.exports = mongoose.model('User', userSchema)
